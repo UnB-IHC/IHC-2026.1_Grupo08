@@ -1,41 +1,55 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
-
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
-
-use_directory_urls: False
+site_name: Documentação Guia de Acessiblidade Digital
 
 nav:
-  - Início - VerificAAA: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
+  - Página Inicial: index.md
+  - Guia de Acessiblidade:
+      - Sobre: guia_acessibilidade/sobre.md
+      - Gestão de Projetos: guia_acessibilidade/guia_gestao.md
+      - Desenvolvimento: guia_acessibilidade/guia_desenvolvimento.md
+      - Design: guia_acessibilidade/guia_design.md
+      - Conteúdo: guia_acessibilidade/guia_conteudo.md
+  - Referências e Ferramentas: referencias/referencias.md
   
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
-
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/globe-light
+        name: Dark mode
+      primary: black
+      accent: black
+    - scheme: slate
+      toggle:
+        icon: material/globe-light-outline
+        name: Light mode
+      primary: white
+      accent: black
 
 markdown_extensions:
-  - def_list
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
   - pymdownx.tasklist:
-      custom_checkbox: false
       clickable_checkbox: true
 
 extra_css:
-  - stylesheets/extra.css
+  - css/custom.css
