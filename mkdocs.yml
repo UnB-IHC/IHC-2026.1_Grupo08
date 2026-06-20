@@ -8,6 +8,7 @@ nav:
       - Desenvolvimento: guia_acessibilidade/guia_desenvolvimento.md
       - Design: guia_acessibilidade/guia_design.md
       - Conteúdo: guia_acessibilidade/guia_conteudo.md
+  - Resultado Final: resultado/resultado.md
   - Referências e Ferramentas: referencias/referencias.md
   
 theme:
@@ -53,3 +54,6 @@ markdown_extensions:
 
 extra_css:
   - css/custom.css
+
+extra_javascript:
+  - js/progress.js
