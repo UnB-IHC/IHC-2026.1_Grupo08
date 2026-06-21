@@ -10,6 +10,7 @@ nav:
       - Conteúdo: guia_acessibilidade/guia_conteudo.md
   - Resultado Final: resultado/resultado.md
   - Referências e Ferramentas: referencias/referencias.md
+  - Histórico de Versões: historico/historico.md
   
 theme:
   name: material
@@ -30,17 +31,17 @@ theme:
 
   palette:
     - scheme: default
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/globe-light
-        name: Dark mode
-      primary: black
-      accent: black
+        icon: material/weather-night
+        name: Mudar para o modo escuro
     - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/globe-light-outline
-        name: Light mode
-      primary: white
-      accent: black
+        icon: material/weather-sunny
+        name: Mudar para o modo claro
 
 markdown_extensions:
   - attr_list

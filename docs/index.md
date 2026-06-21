@@ -1,10 +1,12 @@
-# Guia de Acessibilidade - Gp 8 - IHC 2025/2
+# Guia de Acessibilidade - Gp 8 - IHC 2026/1
 
-![Logo](assets/unb.png)
+<p align="center">
+  <img class="logo-home" src="assets/logo-farmamiku.png" alt="Logo do FarmaMiku" width="420">
+</p>
 
 * Disciplina: Interação Humano Computador – FGA0173
 * Professora: Rejane Maria da Costa Figueiredo
-* Turma T02 – 2025-02
+* Turma T02 – 2026-01
 * Grupo 8
 
 ## Descrição  
@@ -16,12 +18,30 @@ Além de servir como referência teórica, o guia tem como propósito permitir q
 O público-alvo do guia são estudantes, desenvolvedores, designers e profissionais da área de tecnologia que desejam aplicar princípios de acessibilidade e usabilidade em seus projetos digitais.
 
 ## Equipe
-<table>
-    <tr>
-    <td align="center"><a href="https://github.com/camilascareli"><img src="https://avatars.githubusercontent.com/u/168359967?v=4" width="200px;" alt=""/><br/><sub><b>Camila Careli</b></sub></a><br/>
-    <td align="center"><a href="https://github.com/marianaps2701"><img src="https://avatars.githubusercontent.com/u/143816952?v=4" width="200px;" alt=""/><br /><sub><b>Mariana Pereira</b></sub></a><br />
-    <td align="center"><a href="https://github.com/NayraNery127"><img src="https://avatars.githubusercontent.com/u/134748324?v=4" width="200px;" alt=""/><br /><sub><b>Nayra Nery</b></sub></a><br />
-    <td align="center"><a href="https://github.com/Pedro-Henrique3"><img src="https://avatars.githubusercontent.com/u/141349792?v=4" width="200px;" alt=""/><br /><sub><b>Pedro Henrique</b></sub></a><br />
-    <td align="center"><a href="https://github.com/UnderwaterVillager"><img src="https://avatars.githubusercontent.com/u/115714236?v=4" width="200px;" alt=""/><br /><sub><b>Vinícius Jesus</b></sub></a><br />
-    </tr>
-</table>
+
+<div class="equipe">
+  <a class="membro" href="https://github.com/Samuelvlobo">
+    <img src="https://github.com/Samuelvlobo.png" alt="Samuel Lobo">
+    <span>Samuel Lobo</span>
+  </a>
+  <a class="membro" href="https://github.com/jonas3688">
+    <img src="https://github.com/jonas3688.png" alt="João Guilherme">
+    <span>João Guilherme</span>
+  </a>
+  <a class="membro" href="https://github.com/CaioSoandrd">
+    <img src="https://github.com/CaioSoandrd.png" alt="Caio Soares">
+    <span>Caio Soares</span>
+  </a>
+  <a class="membro" href="https://github.com/MarcosViniciusG">
+    <img src="https://github.com/MarcosViniciusG.png" alt="Marcos Vinicius">
+    <span>Marcos Vinicius</span>
+  </a>
+  <a class="membro" href="https://github.com/oyogi">
+    <img src="https://github.com/oyogi.png" alt="Yogi Nam">
+    <span>Yogi Nam</span>
+  </a>
+  <a class="membro" href="https://github.com/Carlos-UCH">
+    <img src="https://github.com/Carlos-UCH.png" alt="Carlos Henrique">
+    <span>Carlos Henrique</span>
+  </a>
+</div>
