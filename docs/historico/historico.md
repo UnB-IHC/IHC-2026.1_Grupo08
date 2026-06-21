@@ -10,6 +10,21 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.3.0] – 2026-06-20 — Canvas de Codesign Empático
+
+Atualização *minor* que preenche a página de **Canvas** com o conteúdo do
+seminário sobre design empático e sua avaliação, escrito com base na apresentação
+da turma.
+
+### Adicionado
+- **Canvas**: criação da página "Canvas de Codesign Empático" (Empathic Co-Design
+  Canvas de Smeenk, estrutura e cartões críticos, aplicação em projetos digitais,
+  avaliação empática, casos de falta de empatia, empatia no desenvolvimento e
+  desafios éticos), com as referências bibliográficas citadas no próprio
+  seminário.
+
+---
+
 ## [2.2.0] – 2026-06-20 — Personas ecossistêmicas
 
 Atualização *minor* que amplia a página de **Personas** com o conteúdo do
