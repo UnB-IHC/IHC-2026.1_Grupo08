@@ -1,16 +1,16 @@
-# FarmaMiku
+# MiFarma
 
 <div align="center">
-<img src="docs/assets/logo-farmamiku.png" alt="Logo do FarmaMiku" width="420">
+<img src="docs/assets/logo-mifarma.png" alt="Logo do MiFarma" width="420">
 </div>
 
 ## Introdução
 
 Este repositório tem como propósito fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento de software, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos. 
 
-## FarmaMiku
+## MiFarma
 
-O FarmaMiku é o nome do projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). 
+O MiFarma é o nome do projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). 
 
 ## Contribuidores
 
