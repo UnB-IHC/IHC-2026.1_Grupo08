@@ -114,6 +114,49 @@ indispensáveis:
   podem ser reaproveitados para outros fins sem nova autorização, respeitando a
   segurança digital e a **LGPD**.
 
+## Personas ecossistêmicas
+
+Uma evolução do conceito tradicional é a **persona ecossistêmica**. Enquanto a
+persona clássica concentra o olhar no usuário final, a ecossistêmica parte de uma
+**visão holística**: ela mapeia todos os atores envolvidos em um serviço (usuários,
+equipes internas, sistemas e demais stakeholders) e, principalmente, as
+**interdependências** entre eles. O foco deixa de ser o perfil isolado e passa a
+ser a rede de relações: quem depende de quem e como o valor (informação, esforço,
+dinheiro) circula entre as partes. A premissa é que o software é apenas uma das
+camadas de um serviço mais amplo, e não uma "ilha tecnológica".
+
+Essa abordagem cobre o serviço por inteiro e ao longo de todo o ciclo (antes,
+durante e depois da interação), o que tende a gerar serviços mais integrados e com
+menos falhas. Para isso, ela costuma se apoiar no **mapa de ecossistema**, uma
+ferramenta que visualiza a rede por trás da experiência e distingue o que o usuário
+vê (*frontstage*) dos processos e sistemas internos que sustentam o serviço
+(*backstage*), revelando gargalos, dependências e lacunas antes mesmo de se pensar
+na interface.
+
+### Da pesquisa ao perfil de competência
+
+A construção começa por **pesquisa qualitativa profunda** (entrevistas contextuais,
+observação de campo e oficinas), porque dados quantitativos sozinhos respondem
+apenas "quem são" os usuários, e não "como agem" no dia a dia, com quais motivações
+reais e onde a colaboração trava. A partir disso, a persona ecossistêmica funciona
+como um **perfil de competência e de decisão**: em vez de detalhar só gostos e
+dados demográficos, ela descreve responsabilidades, riscos e dependências, o que
+ajuda a engenharia de software a definir funcionalidades, priorizar o backlog e
+alinhar treinamento e sistemas.
+
+### Um exemplo: a analista Márcia
+
+Um caso prático usado para ilustrar a ideia é o da Secretaria do Patrimônio da União
+(SPU), mapeada pelo laboratório ITRAC. A persona **"Márcia, a analista de
+destinação"** tem a missão de garantir a destinação legal e socioambiental do
+patrimônio, mas vive uma tensão funcional: depende de outros papéis (como analista
+de cadastro e fiscal de campo) e impacta gestores, cidadãos e órgãos de controle.
+A lição é direta: se a experiência do *backstage* da Márcia falha, o serviço
+simplesmente não chega ao *frontstage* do cidadão. Por isso o design não é só sobre
+interfaces, mas sobre mapear competência e decisão para resolver o gargalo certo,
+deslocando essa preocupação para o início do desenvolvimento (*shift-left*) e
+reduzindo retrabalho.
+
 ## Relação com a acessibilidade
 
 Personas são uma ótima ferramenta para incluir a acessibilidade desde o início:
@@ -133,3 +176,9 @@ como necessidade concreta.
 - SILVEIRA, Milene Selbach; GASPARINI, Isabela. *Práticas de IHC em Sala de
   Aula*. Porto Alegre: Sociedade Brasileira de Computação, 2024.
 - LESLIE, David. *Data Ethics*. London: The Alan Turing Institute, 2019.
+- STICKDORN, Marc et al. *Isto é Design de Serviço na Prática*. Porto Alegre:
+  Bookman, 2019.
+- BARBOSA, Simone; SILVA, Bruno. *Interação Humano-Computador e Experiência de
+  Usuário*. Rio de Janeiro: Elsevier Brasil, 2021.
+- PINTO, Henrique Pucci et al. *Exploring the Role of Service Design in Software
+  Development: A Systematic Mapping*. Brasília: ITRAC/UnB.

@@ -10,6 +10,20 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.2.0] – 2026-06-20 — Personas ecossistêmicas
+
+Atualização *minor* que amplia a página de **Personas** com o conteúdo do
+seminário sobre personas ecossistêmicas, escrito com base na apresentação da
+turma.
+
+### Alterado
+- **Personas**: acréscimo da seção "Personas ecossistêmicas" (visão holística,
+  mapa de ecossistema, frontstage/backstage, persona como perfil de competência
+  e decisão e o caso prático da SPU/ITRAC), com as referências bibliográficas
+  citadas no próprio seminário.
+
+---
+
 ## [2.1.0] – 2026-06-20 — Conteúdo dos seminários
 
 Atualização *minor* que substitui o texto introdutório genérico de páginas da
