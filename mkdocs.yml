@@ -17,7 +17,7 @@ nav:
       - Canvas: ux/canvas.md
       - Mapeamento de Experiências: ux/mapeamento.md
       - Design Empático: ux/design_empatico.md
-  - Referências e Ferramentas: referencias/referencias.md
+  - Ferramentas: referencias/referencias.md
   - Histórico de Versões: historico/historico.md
   
 theme:

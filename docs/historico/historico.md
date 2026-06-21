@@ -10,6 +10,27 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.11.0] – 2026-06-21 — Página de Ferramentas
+
+Atualização *minor* que reformula a página "Referências e Ferramentas",
+transformando-a em uma página focada apenas em **Ferramentas**.
+
+### Alterado
+- **Navegação**: o item "Referências e Ferramentas" passa a se chamar apenas
+  "Ferramentas".
+- **Ferramentas**: página reescrita para conter apenas ferramentas que auxiliam a
+  seguir o checklist do guia (WAVE, axe-core, Lighthouse, WebAIM Contrast Checker,
+  Colour Contrast Analyser, leitores de tela e Diagnóstico do ITRAC), cada uma
+  indicando os itens do guia (Gestão de Projetos, Design, Desenvolvimento e
+  Conteúdo) que apoia.
+
+### Removido
+- **Referências**: exclusão das entradas de referência e normas (10 Heurísticas de
+  Nielsen, Guia de Boas Práticas do Reino Unido, ABNT NBR 17225 e WCAG 2.2) e dos
+  emojis da página.
+
+---
+
 ## [2.10.0] – 2026-06-21 — Resultado Final dentro do Guia
 
 Atualização *minor* que reorganiza a navegação, movendo a página de **Resultado
