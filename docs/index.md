@@ -1,7 +1,7 @@
 # Guia de Acessibilidade - Gp 8 - IHC 2026/1
 
 <p align="center">
-  <img class="logo-home" src="assets/logo-farmamiku.png" alt="Logo do FarmaMiku" width="420">
+  <img class="logo-home" src="assets/logo-mifarma.png" alt="Logo do MiFarma" width="420">
 </p>
 
 * Disciplina: Interação Humano Computador – FGA0173
