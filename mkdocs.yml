@@ -9,13 +9,12 @@ nav:
       - Design: guia_acessibilidade/guia_design.md
       - Conteúdo: guia_acessibilidade/guia_conteudo.md
   - Fundamentos de UX:
-      - UX: ux/ux.md
+      - Avaliação de UX e Heurísticas de Nielsen: ux/ux.md
       - Personas: ux/personas.md
       - Jornadas: ux/jornadas.md
       - Blueprint: ux/blueprint.md
       - Canvas: ux/canvas.md
       - Design Empático: ux/design_empatico.md
-      - Heurísticas de Nielsen: ux/heuristicas_nielsen.md
   - Resultado Final: resultado/resultado.md
   - Referências e Ferramentas: referencias/referencias.md
   - Histórico de Versões: historico/historico.md

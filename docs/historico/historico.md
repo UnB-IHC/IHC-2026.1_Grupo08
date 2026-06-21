@@ -10,6 +10,39 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.7.0] – 2026-06-21 — Reorganização das Heurísticas de Nielsen
+
+Atualização *minor* que remove a página separada de **Heurísticas de Nielsen** e
+concentra esse conteúdo na página de abertura da seção, já que o tema é coberto
+pelo seminário de avaliação de UX.
+
+### Removido
+- **Heurísticas de Nielsen**: exclusão da página `ux/heuristicas_nielsen.md` e da
+  sua entrada na navegação.
+
+### Alterado
+- **UX**: página renomeada para "Avaliação de UX e Heurísticas de Nielsen"
+  (título e rótulo de navegação), refletindo que as 10 heurísticas passam a ser
+  apresentadas nessa página.
+
+---
+
+## [2.6.0] – 2026-06-21 — Avaliação de UX
+
+Atualização *minor* que preenche a página de abertura **UX** com o conteúdo do
+seminário sobre avaliação de UX, escrito com base na apresentação da turma.
+
+### Adicionado
+- **UX**: criação da página "Avaliação de UX" (o que é avaliação de UX, diferença
+  entre métodos e técnicas, dimensões da avaliação — atitudinal/comportamental,
+  qualitativa/quantitativa, formativa/somativa e empírica/analítica —, métodos mais
+  utilizados (Heurística, AttrakDiff, e-SQUUX e SERVQUAL/SERVPERF), avaliação
+  heurística em detalhe com vantagens, desvantagens, as 10 heurísticas e o passo a
+  passo, importância da avaliação e relação com a acessibilidade), com as
+  referências bibliográficas citadas no próprio seminário.
+
+---
+
 ## [2.5.0] – 2026-06-20 — Jornadas do Usuário
 
 Atualização *minor* que preenche a página de **Jornadas** com o conteúdo do
