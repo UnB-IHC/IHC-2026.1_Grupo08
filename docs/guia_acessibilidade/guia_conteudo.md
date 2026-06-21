@@ -11,6 +11,10 @@
 - [ ] **Evitar abreviações, siglas desconhecidas ou termos muito técnicos**, ou fornecer suas explicações.   `WCAG 3.1.3 (AAA)` [(74)](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words)
 - [ ] **Manter consistência terminológica** ao longo do site, usando nomes idênticos para botões, seções e funções.   `(Boa prática)` [(75)](#)
 - [ ] **Escrever conteúdos que possam ser compreendidos fora de ordem**, facilitando a leitura por leitores de tela.   `(Apoiando WCAG 1.3.2)` [(76)](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence)
+- [ ] **Usar um único cabeçalho de nível 1 (`<h1>`)** que identifique a página, sem repeti-lo.   `NBR 5.3.3 / Guia-UK` [(121)](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels)
+- [ ] **Marcar semanticamente trechos de ênfase, citação e abreviação** (ex.: `<em>`, `<strong>`, `<blockquote>`, `<abbr>`), e não apenas com estilo visual.   `NBR 5.12.8 / WCAG 1.3.1 (A)` [(122)](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
+- [ ] **Alinhar os blocos de texto à esquerda** (para idiomas lidos da esquerda para a direita), evitando o texto justificado.   `NBR 5.12.5 / WCAG 1.4.8 (AAA) / Guia-UK` [(123)](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation)
+- [ ] **Limitar a largura dos blocos de texto** a cerca de 80 caracteres por linha, facilitando a leitura.   `NBR 5.12.6 / Guia-UK` [(124)](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation)
 
 ### Alternativas para Mídia
 
@@ -22,6 +26,9 @@
 - [ ] **Fornecer alternativas para conteúdo que depende de um só sentido** (áudio ou vídeo), como transcrição para áudio ou descrição textual para vídeo.   `1.2.3 (A) ITRAC` [(82)](#)
 - [ ] **Fornecer transcrições para áudios** e legendas sincronizadas para vídeos.   `WCAG 1.2.2 (A)` e `1.2.4 (AA)` [(83)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded)
 - [ ] **Evitar uso de metáforas visuais complexas** que possam gerar confusão.   _(Guia-UK)_ [(84)](#)
+- [ ] **Fornecer descrição detalhada para imagens complexas** (gráficos, infográficos, diagramas) em local separado (próximo à imagem ou em outra página), além do texto alternativo curto.   `NBR 5.2.4 / WCAG 1.1.1 (A) / Guia-UK` [(125)](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content)
+- [ ] **Fornecer audiodescrição do conteúdo visual relevante dos vídeos** pré-gravados, prevendo o tempo necessário já no roteiro.   `NBR 5.14.4 / WCAG 1.2.5 (AA) / Guia-UK` [(126)](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded)
+- [ ] **Disponibilizar janela de interpretação em Libras** para vídeos e áudios, posicionada e contrastada de forma legível.   `NBR 5.14.6 / WCAG 1.2.6 (AAA) / Guia-UK` [(127)](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded)
 
 ### Links e Botões
 

@@ -36,3 +36,6 @@
 - [ ] **Garantir que ferramentas utilizadas pela equipe** (protótipos, documentos, plataformas) também sejam acessíveis.  
   *(Guia-UK)* [(12)](https://www.gov.uk/service-manual/technology)
 
+- [ ] **Garantir conformidade com a legislação e as normas de acessibilidade**, observando a Lei Brasileira de Inclusão (Lei nº 13.146/2015, art. 63), que obriga a acessibilidade em sítios da internet, e a ABNT NBR 17225.  
+  *(LBI – Lei 13.146/2015 / ABNT NBR 17225 / Guia-UK)* [(99)](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm)
+

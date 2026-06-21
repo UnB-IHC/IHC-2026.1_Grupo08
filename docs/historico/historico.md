@@ -10,6 +10,31 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ## Versões
 
+### [2.12.0] – 2026-06-21 — Novos itens no Guia de Acessibilidade
+
+Atualização *minor* que amplia os checklists do **Guia de Acessibilidade** com 29
+novos itens (de número 99 a 127), a partir dos seminários e documentos-fonte da
+turma, sem duplicar itens já existentes e citando a fonte primária de cada um.
+
+#### Adicionado
+- **Gestão de Projetos**: conformidade legal e normativa (LBI art. 63; ABNT NBR
+  17225).
+- **Desenvolvimento**: semântica HTML nativa, autenticação acessível, propósito de
+  entrada (*autocomplete*), agrupamento de campos, campos obrigatórios, título de
+  *iframe*, campo de busca, links que abrem nova guia, links para arquivos,
+  *breadcrumbs*, não bloquear zoom, evitar alturas fixas, avisos dinâmicos com
+  `aria-live`, alternativa para arrastar, limite de flashes, reautenticação e uma
+  nova subseção "Modais e Componentes".
+- **Design**: nova subseção "Orientação e Características Sensoriais" (orientação de
+  exibição, características sensoriais, contraste do indicador de foco e botões
+  opcionais de contraste/fonte).
+- **Conteúdo**: cabeçalho `<h1>` único, semântica de ênfase/citação/abreviação,
+  alinhamento à esquerda, largura de blocos de texto, descrição de imagens
+  complexas, audiodescrição e janela de Libras.
+- Os itens obrigatórios do Grupo 08 (Tg-10) foram incorporados; os que já constavam
+  do guia (navegação por teclado, foco visível, textos alternativos, áreas de
+  clique, captchas, entrada redundante, etc.) não foram duplicados.
+
 ### [2.11.0] – 2026-06-21 — Página de Ferramentas
 
 Atualização *minor* que reformula a página "Referências e Ferramentas",

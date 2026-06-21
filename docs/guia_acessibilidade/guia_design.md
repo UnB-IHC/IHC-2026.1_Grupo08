@@ -23,3 +23,9 @@
 - [ ] **Exibir opções, ações e instruções visíveis** na tela, evitando exigir memória do usuário entre telas.   _(Heurística 6)_ [(65)](https://www.nngroup.com/articles/recognition-and-recall/)
 - [ ] **Manter design estético e minimalista**, contendo apenas informações relevantes e necessárias para a tarefa atual.   _(Heurística 8)_ [(66)](https://www.nngroup.com/articles/ten-usability-heuristics/)
 - [ ] **Evitar esconder conteúdo de tecnologias assistivas** com `display:none` ou `visibility:hidden` (em CSS) em elementos que deveriam ser lidos.   _(Guia-UK)_ [(67)](#)
+
+### Orientação e Características Sensoriais
+- [ ] **Não restringir o conteúdo a uma única orientação de exibição** (retrato ou paisagem), salvo quando a orientação for essencial.   `Grupo 08 / NBR 5.10.3 / WCAG 1.3.4 (AA)` [(117)](https://www.w3.org/WAI/WCAG22/Understanding/orientation)
+- [ ] **Não transmitir instruções que dependam apenas de características sensoriais** (forma, cor, tamanho, localização visual, orientação ou som).   `NBR 5.10.1 / WCAG 1.3.3 (A)` [(118)](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics)
+- [ ] **Garantir contraste mínimo de 3:1 do indicador de foco** em relação ao fundo e entre os estados com e sem foco.   `NBR 5.11.6 / WCAG 1.4.11 (AA)` [(119)](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast)
+- [ ] **Se forem oferecidos botões de alto contraste e de tamanho de fonte**, implementá-los com qualidade (área de clique e espaçamento adequados), lembrando que não são obrigatórios, pois muitas pessoas já usam recursos nativos do navegador/sistema.   `Grupo 08 – Guia BP (seção 3, p.28)` [(120)](#)
