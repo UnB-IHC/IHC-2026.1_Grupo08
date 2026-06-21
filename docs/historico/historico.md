@@ -10,6 +10,20 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.1.0] – 2026-06-20 — Conteúdo dos seminários
+
+Atualização *minor* que substitui o texto introdutório genérico de páginas da
+seção **Fundamentos de UX** pelo conteúdo apresentado nos seminários da turma,
+escrito com base nas apresentações.
+
+### Alterado
+- **Design Empático**: página reescrita a partir do seminário do tema
+  (Design Thinking, tipos de empatia, métodos e frameworks, benefícios,
+  limitações e caso de uso), com as referências bibliográficas citadas no
+  próprio seminário.
+
+---
+
 ## [2.0.0] – 2026-06-20 — Turma 2026/1
 
 Versão da turma **2026/1 (Grupo 8)**, construída a partir do guia da turma
@@ -28,6 +42,8 @@ anterior como base.
   progresso.
 - **Página de Histórico de Versões** (este documento), para rastreio das
   mudanças entre semestres.
+- **Seção "Fundamentos de UX"**, com páginas sobre UX, Personas, Jornadas,
+  Service Blueprint, Canvas, Design Empático e as 10 Heurísticas de Nielsen.
 
 ### Alterado
 - Atualização da **equipe** na página inicial para os integrantes da turma
