@@ -10,6 +10,21 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.4.0] – 2026-06-20 — Service Blueprint
+
+Atualização *minor* que preenche a página de **Blueprint** com o conteúdo do
+seminário sobre blueprinting de serviços, escrito com base na apresentação da
+turma.
+
+### Adicionado
+- **Blueprint**: criação da página "Service Blueprint" (definição e valor do
+  método, frontstage/backstage, comparação com journey map, estado atual x
+  futuro, estrutura em cenário/fases/passos/camadas, processo de blueprinting,
+  planejamento, facilitação e pós-blueprint), com a referência bibliográfica
+  citada no próprio seminário.
+
+---
+
 ## [2.3.0] – 2026-06-20 — Canvas de Codesign Empático
 
 Atualização *minor* que preenche a página de **Canvas** com o conteúdo do
