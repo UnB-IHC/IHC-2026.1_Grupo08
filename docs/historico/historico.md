@@ -10,6 +10,21 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.5.0] – 2026-06-20 — Jornadas do Usuário
+
+Atualização *minor* que preenche a página de **Jornadas** com o conteúdo do
+seminário sobre user journey e user flow, escrito com base na apresentação da
+turma.
+
+### Adicionado
+- **Jornadas**: criação da página "Jornadas do Usuário" (diferença entre user
+  journey e user flow, importância da análise de jornada, como montar um mapa,
+  exemplos de jornada e de fluxo, comparação entre as ferramentas e relação com
+  normas, navegação por teclado e acessibilidade). O seminário não apresentava
+  referências bibliográficas internas, então nenhuma foi adicionada.
+
+---
+
 ## [2.4.0] – 2026-06-20 — Service Blueprint
 
 Atualização *minor* que preenche a página de **Blueprint** com o conteúdo do
