@@ -21,6 +21,10 @@ escrito com base nas apresentações.
   (Design Thinking, tipos de empatia, métodos e frameworks, benefícios,
   limitações e caso de uso), com as referências bibliográficas citadas no
   próprio seminário.
+- **Personas**: página reescrita a partir do seminário do tema (história,
+  finalidade, elementos, passo a passo de construção, coleta de dados,
+  ferramentas, papel da IA e questões éticas), com as referências
+  bibliográficas citadas no próprio seminário.
 
 ---
 
