@@ -8,6 +8,7 @@ nav:
       - Desenvolvimento: guia_acessibilidade/guia_desenvolvimento.md
       - Design: guia_acessibilidade/guia_design.md
       - Conteúdo: guia_acessibilidade/guia_conteudo.md
+      - Resultado Final: resultado/resultado.md
   - Fundamentos de UX:
       - Avaliação de UX e Heurísticas de Nielsen: ux/ux.md
       - Personas: ux/personas.md
@@ -16,7 +17,6 @@ nav:
       - Canvas: ux/canvas.md
       - Mapeamento de Experiências: ux/mapeamento.md
       - Design Empático: ux/design_empatico.md
-  - Resultado Final: resultado/resultado.md
   - Referências e Ferramentas: referencias/referencias.md
   - Histórico de Versões: historico/historico.md
   

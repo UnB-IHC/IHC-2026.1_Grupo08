@@ -10,6 +10,18 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.10.0] – 2026-06-21 — Resultado Final dentro do Guia
+
+Atualização *minor* que reorganiza a navegação, movendo a página de **Resultado
+Final** para dentro da seção **Guia de Acessibilidade**.
+
+### Alterado
+- **Navegação**: a página "Resultado Final" deixa de ser um item de nível superior e
+  passa a ser a última subseção do grupo "Guia de Acessibilidade", logo após
+  "Conteúdo".
+
+---
+
 ## [2.9.0] – 2026-06-21 — Métodos de mapeamento na prática
 
 Atualização *minor* que complementa a página **Mapeamento de Experiências** com o
