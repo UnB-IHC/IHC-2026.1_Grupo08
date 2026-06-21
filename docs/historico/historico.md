@@ -10,6 +10,37 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão
 
 ---
 
+## [2.9.0] – 2026-06-21 — Métodos de mapeamento na prática
+
+Atualização *minor* que complementa a página **Mapeamento de Experiências** com o
+conteúdo do segundo seminário do Grupo 08 (UX Mapping Methods: When to Use Which),
+escrito com base na apresentação da turma.
+
+### Alterado
+- **Mapeamento de Experiências**: acréscimo da seção "Os métodos de mapeamento na
+  prática" (mapa de empatia com o exemplo da Clarinha, mapa de jornada do cliente,
+  mapa de stakeholders, mapa de ecossistema e cenários, cada um com características,
+  motivos de uso, momentos de aplicação e KPIs de usabilidade), com as referências
+  bibliográficas citadas no próprio seminário acrescentadas à lista.
+
+---
+
+## [2.8.0] – 2026-06-21 — Mapeamento de Experiências
+
+Atualização *minor* que adiciona a página **Mapeamento de Experiências** com o
+conteúdo do seminário sobre o livro de James Kalbach, escrito com base na
+apresentação da turma.
+
+### Adicionado
+- **Mapeamento de Experiências**: criação da página `ux/mapeamento.md` (problema dos
+  silos organizacionais, tese do alinhamento entre indivíduo e organização, os sete
+  princípios de um diagrama alinhado, benefícios de mapear, os cinco tipos de
+  diagrama — Service Blueprint, Customer Journey Map, Experience Map, Mental Model e
+  Spatial Map — com suas comparações, o processo em quatro passos e a relação com a
+  acessibilidade), com as referências bibliográficas citadas no próprio seminário.
+
+---
+
 ## [2.7.0] – 2026-06-21 — Reorganização das Heurísticas de Nielsen
 
 Atualização *minor* que remove a página separada de **Heurísticas de Nielsen** e
