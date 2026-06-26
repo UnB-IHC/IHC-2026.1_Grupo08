@@ -207,3 +207,36 @@
     height: 100px;
   }
 }
+
+/* Badges de Status da Avaliação de Acessibilidade */
+.badge-status {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 12px;
+  text-align: center;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  min-width: 60px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.badge-c {
+  background-color: #2e7d32; /* Verde - Conforme */
+}
+.badge-p {
+  background-color: #ef6c00; /* Laranja - Parcialmente Conforme */
+}
+.badge-nc {
+  background-color: #c62828; /* Vermelho - Não Conforme */
+}
+.badge-na {
+  background-color: #616161; /* Cinza - Não Aplicável */
+}
+
+/* Centralização do status nas tabelas de avaliação */
+.md-typeset table:not([class]) th:nth-child(2),
+.md-typeset table:not([class]) td:nth-child(2) {
+  text-align: center;
+}
