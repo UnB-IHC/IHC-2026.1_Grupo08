@@ -9,6 +9,9 @@ nav:
       - Design: guia_acessibilidade/guia_design.md
       - Conteúdo: guia_acessibilidade/guia_conteudo.md
       - Resultado Final: resultado/resultado.md
+      - Avaliação de Usuário:
+          - Roteiro de Avaliação: resultado/roteiro.md
+          - Resultados da Avaliação: resultado/resultados_avaliacao.md
   - Fundamentos de UX:
       - Avaliação de UX e Heurísticas de Nielsen: ux/ux.md
       - Personas: ux/personas.md
