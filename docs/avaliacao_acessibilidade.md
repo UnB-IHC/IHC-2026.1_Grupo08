@@ -67,7 +67,7 @@ Para cada categoria, foram testados os itens aplicáveis ao site atual, rotuland
 | **Linguagem simples e clara** | <span class="badge-status badge-c">C</span> | Textos estruturados de forma direta, clara e de fácil entendimento. |
 | **Hierarquia lógica de títulos** | <span class="badge-status badge-c">C</span> | Páginas utilizam H1 para o título principal, seguidos de H2 e H3 de forma sequencial e sem saltos de níveis. |
 | **Textos alternativos em imagens** | <span class="badge-status badge-c">C</span> | As imagens na página inicial (Logotipo do MiFarma e avatares dos desenvolvedores) contêm atributos `alt` preenchidos e descritivos. |
-| **Links com textos significativos** | <span class="badge-status badge-p">P</span> | Os links que apontam para as referências detalhadas das diretrizes WCAG são apenas números entre colchetes, como `[(49)]` ou `[(50)]`. Para leitores de tela que listam links fora do contexto, isso soa apenas como "Link 49", "Link 50", violando a WCAG 2.4.4. O ideal seria dar um contexto textual a estes links (ex: `aria-label="Explicação sobre o item 49 na WCAG"`). |
+| **Links com textos significativos e funcionais** | <span class="badge-status badge-nc">NC</span> | **Oportunidade crítica:** Os links que apontam para as referências das diretrizes (ex: `[(49)]`) estão literalmente quebrados (apontando para `href="#"`), ou seja, não levam o usuário ao recurso. Além disso, quando lidos isoladamente por leitores de tela, soam apenas como números sem sentido, violando a regra de propósito claro do link (WCAG 2.4.4). |
 | **Alinhamento do texto à esquerda** | <span class="badge-status badge-c">C</span> | Textos padrão alinhados à esquerda, evitando alinhamento justificado que prejudica pessoas com dislexia. |
 
 ---
@@ -111,26 +111,16 @@ Abaixo estão detalhados os três problemas de acessibilidade mais significativo
     });
     ```
 
-#### Problema 2: Links Pouco Descritivos para Tecnologias Assistivas (WCAG 2.4.4 - A)
-* **Descrição:** Os links de referência rápida ao lado de cada item do checklist (ex: `[(49)]`, `[(50)]`) são lidos de forma isolada como apenas números pelos leitores de tela.
-* **Impacto:** Cegos ou pessoas que usam modos de navegação rápida por links não saberão para onde esses links apontam.
+#### Problema 2: Links Quebrados e Pouco Descritivos (WCAG 2.4.4 - A)
+* **Descrição:** Existem dezenas de links de referência rápida ao lado de cada item do checklist (ex: `[(49)]`, `[(50)]`) que estão estruturados de forma incompleta: eles apontam para um link nulo (`href="#"`), recarregando a página atual ao invés de direcionar à diretriz correta. Além disso, por exibirem apenas números, são lidos de forma não clara pelos leitores de tela.
+* **Impacto:** Pessoas com ou sem deficiência clicam nos links em busca de entender as diretrizes, mas recebem uma falha (não são redirecionadas) e acabam com frustração na navegação. Leitores de tela também perdem completamente o contexto do destino.
 * **Proposta de Correção:**
-  Podemos adicionar um atributo `aria-label` descritivo a esses links nas páginas Markdown ou dinamicamente via JS.
+  Preencher as URLs corretas de referência no Markdown (apontando para o site do W3C ou materiais locais) e adicionar um atributo `aria-label` ou `title` contextual a eles.
   * *Exemplo via Markdown:*
     ```markdown
-    - [ ] **Garantir um indicador de foco visível**... [(49)](https://...){ aria-label="Referência do critério de Foco Visível na WCAG" }
+    - [ ] **Garantir um indicador de foco visível**... [(49)](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html){ aria-label="Referência do critério de Foco Visível na WCAG" }
     ```
-  * *Exemplo dinâmico via JavaScript:*
-    ```javascript
-    // Adicionar rotina para rotular links de referência automaticamente
-    document.querySelectorAll(".md-content article li.task-list-item a").forEach(function(link) {
-      var text = link.innerText.trim();
-      if (/^\(\d+\)$/.test(text)) { // Se o texto for do tipo "(49)"
-        var itemText = link.closest("li").innerText.replace(text, "").trim();
-        link.setAttribute("aria-label", "Saiba mais sobre: " + itemText);
-      }
-    });
-    ```
+  * *Solução paliativa se as URLs ainda não estiverem prontas:* Remover a tag `<a href="#">` e transformar em texto normal (`<span>[(49)]</span>`) até que os links reais da W3C sejam mapeados, para evitar que o usuário clique em algo que não funciona.
 
 #### Problema 3: Aviso Dinâmico do Progresso para Leitores de Tela (WCAG 4.1.2 / 4.1.3 - AA)
 * **Descrição:** O anel de progresso circular flutuante se atualiza dinamicamente na tela, mas o feedback sonoro de que a tarefa foi concluída ou que o progresso mudou não é explicitamente disparado para quem utiliza leitores de tela de forma clara.
