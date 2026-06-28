@@ -234,15 +234,15 @@ Durante todo o teste, marque:
 
 | Comportamento | Sim | Não |
 | :--- | :---: | :---: |
-| Demonstrou confiança | ☐ | ☐ |
-| Demonstrou frustração | ☐ | ☐ |
-| Precisou voltar várias páginas | ☐ | ☐ |
-| Mudou de estratégia | ☐ | ☐ |
-| Demorou para decidir | ☐ | ☐ |
-| Ficou em silêncio por muito tempo | ☐ | ☐ |
-| Expressou satisfação | ☐ | ☐ |
-| Demonstrou surpresa | ☐ | ☐ |
-| Tentou clicar em elemento não clicável | ☐ | ☐ |
+| Demonstrou confiança | <input type="checkbox"> | <input type="checkbox"> |
+| Demonstrou frustração | <input type="checkbox"> | <input type="checkbox"> |
+| Precisou voltar várias páginas | <input type="checkbox"> | <input type="checkbox"> |
+| Mudou de estratégia | <input type="checkbox"> | <input type="checkbox"> |
+| Demorou para decidir | <input type="checkbox"> | <input type="checkbox"> |
+| Ficou em silêncio por muito tempo | <input type="checkbox"> | <input type="checkbox"> |
+| Expressou satisfação | <input type="checkbox"> | <input type="checkbox"> |
+| Demonstrou surpresa | <input type="checkbox"> | <input type="checkbox"> |
+| Tentou clicar em elemento não clicável | <input type="checkbox"> | <input type="checkbox"> |
 
 ---
 
