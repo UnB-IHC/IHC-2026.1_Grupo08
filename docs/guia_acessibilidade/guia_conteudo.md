@@ -1,4 +1,6 @@
-# Checklist de Conteúdo
+# Checklist de Conteúdo (Aplicado à OficialFarma)
+
+Este checklist abrange as boas práticas para estruturação de textos, clareza, uso semântico de títulos e criação de textos alternativos (alt) para mídias. Foi exatamente com base nestes requisitos que detectamos, por exemplo, a falha crítica da ausência de descrições nas fotos de produtos e nos banners promocionais da **OficialFarma**.
 
 ### Estrutura e Clareza
 

@@ -1,4 +1,6 @@
-# Checklist de Gestão de Projetos
+# Checklist de Gestão de Projetos (Aplicado à OficialFarma)
+
+Este checklist foca nas políticas de desenvolvimento, requisitos legais (LBI) e metodologias de equipe. Utilizamos esta base teórica para auditar publicamente a conformidade macro e as garantias legais de acessibilidade que o e-commerce da **OficialFarma** (não) oferece ao seu público.
 
 - [ ] **Considerar acessibilidade desde a fase de iniciação** do projeto, e não apenas no final.  
   *(Guia-UK)* [(1)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/creating-services-that-are-accessible)

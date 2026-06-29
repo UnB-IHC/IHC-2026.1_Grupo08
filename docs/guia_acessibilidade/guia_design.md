@@ -1,4 +1,6 @@
-# Checklist de Design
+# Checklist de Design (Aplicado à OficialFarma)
+
+Este checklist reúne as diretrizes de design visual e de interação (foco visível, contraste, disposição de botões e responsividade). Na nossa etapa de Avaliação, utilizamos exatamente estes critérios para inspecionar a vitrine de produtos e o fluxo de compra da **OficialFarma**.
 
 - [ ] **Garantir um indicador de foco visível** (contorno ou destaque) em todos os elementos interativos ao navegar com a tecla Tab.   `WCAG 2.4.7 (AA)` [(49)](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
 - [ ] **Oferecer mensagens de erro descritivas**, indicando claramente qual campo está errado e como corrigir, usando mais de um recurso (cor + texto).   `WCAG 3.3.1 (A) ITRAC` [(50)](https://www.w3.org/WAI/WCAG22/Understanding/error-identification)

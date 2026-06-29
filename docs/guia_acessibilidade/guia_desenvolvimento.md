@@ -1,4 +1,6 @@
-# Checklist de Desenvovlimento
+# Checklist de Desenvolvimento (Aplicado à OficialFarma)
+
+Este checklist agrega critérios técnicos estruturais do código-fonte (semântica HTML, rótulos ARIA, controle de foco e teclado). Na fase de avaliação técnica do nosso projeto, varremos a estrutura do carrinho, a busca e as páginas de produto da **OficialFarma** exatamente através destas validações.
 
 ### Conhecimento e Princípios
 - [ ] **Garantir que a equipe de desenvolvimento conheça as diretrizes WCAG**, especialmente os níveis A e AA. `Guia-UK` [(13)](#)

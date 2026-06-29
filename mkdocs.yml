@@ -17,7 +17,9 @@ nav:
       - Canvas: ux/canvas.md
       - Mapeamento de Experiências: ux/mapeamento.md
       - Design Empático: ux/design_empatico.md
-  - Avaliação do Site: avaliacao_acessibilidade.md
+  - Avaliação do Site:
+      - Planejamento da Avaliação: avaliacao/planejamento_avaliacao.md
+      - Relato dos Resultados: avaliacao/relato_resultados.md
   - Ferramentas: referencias/referencias.md
   - Histórico de Versões: historico/historico.md
   

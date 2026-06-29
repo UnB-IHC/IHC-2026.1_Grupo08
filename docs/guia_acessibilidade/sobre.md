@@ -1,16 +1,18 @@
-# Guia de Acessibilidade Digital
-O Guia de Acessibilidade Digital é um documento criado para orientar a **construção de interfaces mais inclusivas**, garantindo que todos os usuários — independentemente de suas limitações físicas, sensoriais, cognitivas ou tecnológicas no qual possam navegar, compreender e interagir adequadamente com conteúdos digitais.
+# Guia de Acessibilidade Digital (Contexto OficialFarma)
+O Guia de Acessibilidade Digital é um documento criado para orientar a **construção de interfaces mais inclusivas**, garantindo que todos os usuários — independentemente de suas limitações físicas, sensoriais, cognitivas ou tecnológicas — possam navegar, compreender e interagir adequadamente com conteúdos digitais.
+
+Neste projeto da disciplina de Interação Humano-Computador, **adaptamos e aplicamos este guia diretamente ao e-commerce OficialFarma**, utilizando-o como instrumento base para avaliar o fluxo de compras, a busca de produtos e as páginas de medicamentos.
 
 ---
 
-## A importância do Guia
-A acessibilidade digital não é apenas uma boa prática: ela é essencial para assegurar igualdade de acesso à informação, melhorar a experiência do usuário e cumprir normas e legislações relacionadas à inclusão. Além disso, interfaces acessíveis ampliam o alcance dos produtos, fortalecem a reputação das marcas e reduzem custos futuros com retrabalho.
+## A importância do Guia para E-commerces
+A acessibilidade digital não é apenas uma boa prática: ela é essencial para assegurar igualdade de acesso à saúde e bem-estar (produtos farmacêuticos), melhorar a experiência do usuário e cumprir normas e legislações (como a LBI). Em lojas virtuais como a OficialFarma, interfaces acessíveis ampliam o alcance de clientes, fortalecem a confiança na marca e reduzem abandonos de carrinho por barreiras de uso.
 
 ---
 
 ## Para que serve o Guia
-Este guia funciona como um material de consulta e apoio para quem precisa aplicar ou avaliar aspectos de acessibilidade em sites, sistemas, aplicativos e documentos digitais.
-Ele oferece orientações práticas, organizadas e atualizadas, que facilitam a identificação e a solução de barreiras de acesso.
+Este guia funciona como um material de consulta e apoio para quem precisa aplicar ou avaliar aspectos de acessibilidade no ecossistema da OficialFarma e sistemas similares.
+Ele oferece orientações práticas, organizadas e atualizadas, que facilitam a identificação e a solução de barreiras de acesso em fluxos de compra online.
 
 ---
 
