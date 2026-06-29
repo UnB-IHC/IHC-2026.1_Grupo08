@@ -183,6 +183,8 @@ Avaliação da clareza das informações, links, alts de imagem e rotulação te
 
 #### Problema 1: Imagens e Produtos Sem Alternativa Textual (WCAG 1.1.1 - Nível A)
 * **Descrição:** A ausência de atributo `alt` nas fotos de produtos e no logotipo principal impede deficientes visuais de saber quais medicamentos ou suplementos estão selecionando na vitrine.
+* **Evidência Visual:**
+  ![Problema 1 - Imagens sem Alt](assets/oficialfarma/problema1-imagens.png)
 * **Proposta de Correção (HTML):**
   ```html
   <!-- Antes -->
@@ -194,6 +196,8 @@ Avaliação da clareza das informações, links, alts de imagem e rotulação te
 
 #### Problema 2: Teclado Sem Foco Visual e Menus Inacessíveis (WCAG 2.4.7 - Nível AA e 2.1.1 - Nível A)
 * **Descrição:** O contorno visual de foco foi desativado no CSS. Além disso, o menu principal de departamentos só expande com o mouse (`hover`), bloqueando a navegação de usuários de teclado.
+* **Evidência Visual:**
+  ![Problema 2 - Menu e Foco de Teclado](assets/oficialfarma/problema2-menu.png)
 * **Proposta de Correção (CSS & JS):**
   ```css
   /* Restaurar indicador de foco */
@@ -206,6 +210,8 @@ Avaliação da clareza das informações, links, alts de imagem e rotulação te
 
 #### Problema 3: Botões e Inputs Sem Nome Acessível (WCAG 4.1.2 - Nível A)
 * **Descrição:** Os botões de aumentar/diminuir quantidade de produto e o input de busca não possuem textos descritivos programáticos, impossibilitando leitores de tela de descreverem a ação ao usuário.
+* **Evidência Visual:**
+  ![Problema 3 - Botões sem Nome Acessível](assets/oficialfarma/problema3-botoes.png)
 * **Proposta de Correção (HTML):**
   ```html
   <!-- Adicionar aria-label nos botões de quantidade -->
